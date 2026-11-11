@@ -51,3 +51,32 @@ For the current project, error messages and notebook outputs can be used as basi
 Monitoring helps identify errors and maintain reliable machine learning operations. Cost awareness helps avoid unnecessary resource usage, while access control protects project files and information.
 
 This task helped me understand the importance of monitoring, basic alerting, cost management, and security practices in machine learning projects.
+
+## Machine Learning Model Improvement
+
+### Objective
+The objective was to improve the performance of the existing Random Forest classification model using hyperparameter tuning.
+
+### Techniques Used
+- GridSearchCV
+- 5-Fold Cross Validation
+- Hyperparameter Optimization
+- Model Performance Evaluation
+
+### Parameters Tuned
+- Number of estimators
+- Maximum depth
+- Minimum samples split
+- Minimum samples leaf
+
+### Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+
+### Results
+The original Random Forest model was compared with the tuned Random Forest model to evaluate performance improvements.
+
+### Conclusion
+Hyperparameter tuning helps identify suitable model configurations and provides a systematic way to improve machine learning performance.
